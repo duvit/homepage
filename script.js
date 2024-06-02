@@ -29,6 +29,6 @@ function setupPopUpDelegation(container) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const container = document.querySelector('.contact-info__block');
+  const container = document.querySelector(".contact-info__block");
   setupPopUpDelegation(container);
 });
