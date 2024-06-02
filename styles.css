@@ -34,7 +34,7 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 18px 40px 10px;
+  padding: 18px 40px 18px;
 }
 
 .fh {
@@ -331,6 +331,7 @@ body {
   }
 
   .additional-info {
-    margin-top: 10;
+    margin-top: 10px;
+    
   }
 }
