@@ -1,35 +1,258 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/13111a6eb5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    <main>
-      <div class="resume">
-        <div class="container">
-          <div class="resume__block">
-            <h1 class="contact-info__header">John Doe</h1>
-            <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
-
-            <div class="contact_info_container fh">
-              <div class="contact-info__block"></div>
-
-              <div class="contact-info__block contact-info__block--center">
-                <img
-                  class="contact-info__avatar"
-                  src="assets/avatar.png"
-                  alt="Avatar"
-                />
+    <div class="wrapper">
+      <main>
+        <div class="resume">
+          <div class="container">
+            <div class="resume__block">
+              <h1 class="contact-info__header">Vitalii Dutov</h1>
+              <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+              <div class="contact_info_container fh">
+                <div class="contact-info__block">
+                  <div class="contact-info__item">
+                    <a href="" rel="author" class="contact-info__item-ref">
+                      <div class="contact-info__item-icon-wrapper">
+                        <i class="fa-solid fa-location-dot fa-xl"></i>
+                      </div>
+                      <span>Kyiv, Ukraine</span>
+                    </a>
+                  </div>
+                  <div class="contact-info__item">
+                    <a
+                      class="contact-info__item-ref contact-info__item"
+                      href="https://www.linkedin.com/in/vitalii-dutov-b20b56239"
+                      rel="author"
+                      target="_blank"
+                    >
+                      <div class="contact-info__item-icon-wrapper">
+                        <i
+                          class="fa-brands fa-linkedin fa-xl"
+                          style="color: #0077b5"
+                        ></i>
+                      </div>
+                      <span>LinkedIn</span>
+                    </a>
+                    <div
+                      class="contact-info__item-wrapper qr-icon-wrapper"
+                      id="linkedinQrTarget"
+                    >
+                      <i class="fa-solid fa-qrcode fa-lg qr-icon"></i>
+                    </div>
+                    <div
+                      class="contact-info__item-qr-wrapper"
+                      id="linkedinQrCode"
+                    >
+                      <img
+                        class="contact-info__item-qr"
+                        src="assets/icons/linkedIn-qr-code.png"
+                        alt="linkedin qr-code"
+                      />
+                    </div>
+                  </div>
+                  <div class="contact-info__item">
+                    <a
+                      class="contact-info__item-ref"
+                      href="mailto:dutov.vit.vic@gmail.com"
+                      rel="author"
+                      target="”_blank”"
+                    >
+                      <div class="contact-info__item-icon-wrapper">
+                        <i
+                          class="fa-solid fa-envelope fa-xl"
+                          style="color: #fb5f05"
+                        ></i>
+                      </div>
+                      <span>dutov.vit.vic@gmail.com</span>
+                    </a>
+                    <div
+                      class="contact-info__item-wrapper qr-icon-wrapper"
+                      id="emailQrTarget"
+                    >
+                      <i class="fa-solid fa-qrcode fa-lg qr-icon"></i>
+                    </div>
+                    <div class="contact-info__item-qr-wrapper" id="emailQrCode">
+                      <img
+                        class="contact-info__item-qr"
+                        src="assets/icons/gmail-qr-code.png"
+                        alt="email qr-code"
+                      />
+                    </div>
+                  </div>
+                  <div class="contact-info__item">
+                    <a
+                      class="contact-info__item-ref"
+                      href="tel:+380637430869"
+                      rel="author"
+                      target="_blank"
+                    >
+                      <div class="contact-info__item-icon-wrapper">
+                        <i
+                          class="fa-solid fa-phone fa-xl"
+                          style="color: #5372fc"
+                        ></i>
+                      </div>
+                      <span>+380637430869</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="contact-info__block contact-info__block--center">
+                  <img
+                    class="contact-info__avatar"
+                    src="assets/my-photo.jpg"
+                    alt="Avatar"
+                  />
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </main>
 
-              <div class="contact-info__block"></div>
+      <div class="container">
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">
+              <i
+                class="fa-solid fa-quote-left fa-xl"
+                style="color: rgba(148, 107, 45, 1)"
+              ></i>
+            </div>
+            <p class="intro_text">
+              I'm Vitalii, a web developer passionate about creating dynamic and
+              user-friendly web experiences. With a keen eye for detail and a
+              commitment to continuous learning, I thrive on solving complex
+              problems and collaborating with teams to deliver high-quality
+              projects. My adaptability and strong communication skills enable
+              me to contribute effectively in diverse and fast-paced
+              environments.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="resume__block">
+          <div class="skills">
+            <h3 class="skills__header">Skills</h3>
+            <p class="skills__text">
+              Problem Solving, Continuous Learning, Team Collaboration, Time
+              Management, Attention to Detail, Adaptability, Critical Thinking,
+              Creativity, Multitasking, Organization, Analytical, Thinking,
+              Flexibility, Self-Motivation
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="resume__block">
+          <div class="main-info fh">
+            <div class="experiences">
+              <h3 class="experiences__header">Experience</h3>
+              <div class="experiences__company">
+                <div class="experiences__company-header">
+                  <span class="experiences__company-header-durability"
+                    >01.2023 - Present</span
+                  >
+                  <h3 class="experiences__company-header-name">
+                    NF Development
+                  </h3>
+                </div>
+
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role"
+                    >Frontend Developer</span
+                  >
+                  <h3 class="experiences__company-project-name">
+                    Personal Portfolio Project
+                  </h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>
+                      Designed and implemented a responsive personal portfolio
+                      website using HTML, CSS, and JavaScript
+                    </li>
+                    <li>Developed interactive UI components with React</li>
+                    <li>
+                      Ensured cross-browser compatibility and mobile
+                      responsiveness
+                    </li>
+                    <li>
+                      Integrated with GitHub API to showcase latest projects
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="experiences__company-project">
+                  <span class="experiences__company-project-role"
+                    >Frontend Developer</span
+                  >
+                  <h3 class="experiences__company-project-name">
+                    Online Store Mockup
+                  </h3>
+                  <ul class="experiences__company-project-responsibilities">
+                    <li>
+                      Created a mockup of an online store using HTML, CSS, and
+                      JavaScript
+                    </li>
+                    <li>
+                      Implemented product listing and detail pages with dynamic
+                      data fetching
+                    </li>
+                    <li>Styled components using Bootstrap and custom CSS</li>
+                    <li>
+                      Collaborated with a team using Git and GitHub for version
+                      control
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="additional-info fv">
+              <div class="additional-info fv">
+                <div class="additional-info__education">
+                  <h3 class="additional-info__education-header">Education</h3>
+                  <div class="additional-info__education-university">
+                    <span
+                      class="additional-info__education-university-durability"
+                      >2015</span
+                    >
+                    <h3
+                      class="additional-info__education-university-speciality"
+                    >
+                      Law
+                    </h3>
+                    <p class="additional-info__education-university-name">
+                      Open International University Of Human Development
+                      “Ukraine”
+                    </p>
+                  </div>
+                </div>
+
+                <div class="additional-info__languages">
+                  <h3 class="additional-info__languages-header">Languages</h3>
+                  <p class="additional-info__languages-item">English</p>
+                  <p class="additional-info__languages-item">Ukrainian</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
